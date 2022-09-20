@@ -41,6 +41,7 @@ const controller = {
       name: req.body.name,
       price: Number(req.body.price),
       description: req.body.description,
+      image: req.file.Filename
     };
 
     data.push(newProduct);
